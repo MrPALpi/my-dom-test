@@ -1,0 +1,46 @@
+@import '../../node_modules/@fontsource/roboto/index.css';
+
+:root {
+  --gray-dark: #333333;
+  --gray: #6C757D;
+  --gray-2: #757575;
+  --gray-3: #CCCCCC;
+  --gray-middle: #999999;
+  --gray-light: #ABABAB;
+  --green: #50B053;
+  --green-2: #44A248;
+  --white: #fff;
+}
+
+
+$color: var(--gray-dark);
+$gray: var(--gray);
+$icon: var(--gray-2);
+$border: var(--gray-3);
+$holder: var(--gray-light);
+$holder-2: var(--gray-middle);
+$accent: var(--green);
+$accent-2: var(--green-2);
+$bg: var(--white);
+$alt-color: var(--white);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+    line-height: 20px;
+      font-family: 'Roboto', sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  color: $color;
+  background-color: $bg;
+
+  font-size: 14px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
